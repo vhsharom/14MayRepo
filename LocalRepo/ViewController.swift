@@ -14,6 +14,10 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         println("Hello World")
     }
+    
+    func addAccount(){
+        println("Add Account")
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
